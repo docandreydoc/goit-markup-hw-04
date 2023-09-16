@@ -32,6 +32,9 @@ button{
 img{
     display: block;
 }
+svg{
+    fill:none;
+}
 .visually-hidden{
      
             position: absolute;
@@ -117,6 +120,13 @@ text-decoration: none;
     background-color: #2E2F42;
     padding: 188px 0;
     text-align: center;
+    background-image: linear-gradient(#2E2F42B2, #2E2F42B2), url(/images/hero-bg.jpg);
+    width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    
 }
 
 
@@ -165,10 +175,24 @@ text-decoration: none;
     display: flex;
     gap:24px;
     padding: 0;
+
 }
 .target-item{
     flex-basis: calc((100% - 3 * 24px) / 4);
 
+}
+.target-logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    padding: 24px 100px;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    
+    margin-bottom: 8px;
 }
 .target-title{
         color:#2E2F42;
@@ -206,6 +230,7 @@ text-decoration: none;
     display: flex;
     gap: 24px;
     padding-left: 0;
+    
 }
 
 .teammate-background{
@@ -214,6 +239,8 @@ text-decoration: none;
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team{
     padding: 32px 0;
