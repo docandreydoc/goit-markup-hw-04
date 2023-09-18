@@ -486,8 +486,8 @@ text-decoration: none;
 .footer-item:focus {
     background-color: #31D0AA;
 }
-.footer-link-logo {
-    fill: #F4F4FD;
+.footer-link-logo{
+        fill: #F4F4FD;
 }
 .address-info{
     font-style: normal;
